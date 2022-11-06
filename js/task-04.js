@@ -2,7 +2,7 @@ const btnDecrRefs = document.querySelector('button[data-action="decrement"]');
 const btnIncrRefs = document.querySelector('button[data-action="increment"]');
 const valueRefs = document.querySelector("#value");
 
-let counterValue = 78;
+let counterValue = 0;
 
 const render = () => {
   valueRefs.textContent = counterValue;
